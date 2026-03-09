@@ -1,0 +1,65 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+  background: #0a0a0f;
+  color: #fff;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.app { min-height: 100vh; }
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px 40px;
+  border-bottom: 1px solid #1e1e2e;
+  background: #0d0d14;
+}
+
+.header-badge {
+  background: #e10600;
+  color: #fff;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  padding: 4px 10px;
+  border-radius: 2px;
+}
+
+.header h1 { font-size: 32px; font-weight: 800; margin-top: 6px; }
+.accent { color: #e10600; }
+.header p { color: #666; font-size: 13px; margin-top: 2px; }
+
+.driver-selectors {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.selector-group label {
+  display: block;
+  font-size: 10px;
+  letter-spacing: 2px;
+  color: #666;
+  margin-bottom: 6px;
+}
+
+.selector-group select {
+  background: #1a1a2e;
+  color: #fff;
+  border: 2px solid;
+  border-radius: 6px;
+  padding: 8px 12px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  outline: none;
+}
+
+.vs {
+  font-size: 20px;
+  font-weight: 900;
+  color: #333;
+  margin-top: 18px;
+}

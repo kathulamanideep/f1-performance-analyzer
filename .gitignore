@@ -1,0 +1,18 @@
+# Node
+frontend/node_modules/
+frontend/build/
+
+# Python
+data-engine/venv/
+data-engine/__pycache__/
+*.pyc
+
+# .NET
+backend-api/F1Insight.API/bin/
+backend-api/F1Insight.API/obj/
+
+# Docker
+.dockerignore
+
+# Mac
+.DS_Store
